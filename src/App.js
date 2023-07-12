@@ -1,7 +1,7 @@
 import "./index.css";
 import Navbar from "./componenets/Navbar";
 import Hero from "./componenets/Hero";
-import Page from "./componenets/Page";
+import Pages from './componenets/Pages'
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <Page/>
+      <Pages/>
     </div>
   );
 }
