@@ -10,10 +10,11 @@ const Hero = () => {
        <Typed className='font-bold 400'
         strings={[' CODE , COMMIT & PUSH .....']} typeSpeed={80} backSpeed={90} loop />
 
-       <span className='flex flex-row gap-4 py-16'>
-        <button>Login </button>
-        <button>Sign up </button>
-        </span> 
+         <span className='flex flex-row gap-10 py-5' >
+        <button className='bg-[#00df9a] w-[80px] rounded-md my-6 mx-auto py-2 px-3'>Login </button>
+        <button className='bg-[#00df9a] w-[80px] rounded-md my-6 mx-auto py-2 px-3'>Sign up </button>
+   
+        </span>
       </div>
 
       
