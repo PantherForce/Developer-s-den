@@ -1,14 +1,15 @@
 import "./index.css";
 import Navbar from "./componenets/Navbar";
 import Hero from "./componenets/Hero";
-import Info from "./componenets/Info";
+import Page from "./componenets/Page";
+
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Info />
+      <Page/>
     </div>
   );
 }

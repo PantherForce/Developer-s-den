@@ -12,8 +12,8 @@ const Navbar = () => {
     <div className=" flex justify-between item-center h-24 max-w-[1024px] mx-auto px-3 text-white">
       <h1 className="w-full mt-3 text-3xl font-bold text-[#00df9a]">React</h1>
 
-      <ul className=" hidden md:flex ">
-        <li className="p-4">Home</li>
+      <ul className=" hidden md:flex cursor-pointer ">
+        <li to='./Home' className="p-4">Home</li>
         <li className="p-4">Company</li>
         <li className="p-4">Resources</li>
         <li className="p-4">About</li>
@@ -33,7 +33,7 @@ const Navbar = () => {
             : "fixed left-[-100%]"
         }
       >
-        <ul className=" pt-7 hidden ">
+        <ul className=" pt-7 hidden cursor-pointer ">
           <li className="p-4  border-gray-400">Home</li>
           <li className="p-4  border-gray-400 ">Company</li>
           <li className="p-4  border-gray-400 ">Resources</li>
