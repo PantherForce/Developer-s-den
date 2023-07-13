@@ -5,13 +5,13 @@ const Pages = () => {
   return (
     <div className='bg-white w-full py-16'>
 
-  <img className='ml-10'
-  src= {images}
-  alt='code'
-  height={400}
-  width={200}
-  
-  />
+      <img className='ml-10 '
+        src={images}
+        alt='code'
+        height={400}
+        width={200}
+
+      />
     </div>
   )
 }
