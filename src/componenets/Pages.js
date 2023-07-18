@@ -10,8 +10,12 @@ const Pages = () => {
         alt='code'
         height={400}
         width={200}
-
       />
+      <div>
+      <h2 className='flex justify-center align-items'> For Developer </h2>
+      <p> </p>
+      </div> 
+
     </div>
   )
 }
