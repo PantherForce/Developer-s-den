@@ -16,7 +16,7 @@ const Fetchapi = () => {
 
     return (
         <div className="h-max w-full" >
-            {/* <ul className=" text-cyan-200">
+            <ul className=" text-cyan-200">
                 {records.map((list, index) => {
                     
                     return(
@@ -25,7 +25,7 @@ const Fetchapi = () => {
 
                 })}
 
-            </ul> */}
+            </ul>
             </div>
     )
 }
